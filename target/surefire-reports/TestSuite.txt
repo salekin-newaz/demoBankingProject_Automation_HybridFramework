@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 5.711 s <<< FAILURE! - in TestSuite
+setup(com.inetBanking.testCases.TC_LoginTest_001)  Time elapsed: 5.468 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.81 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-Q934L8H', ip: '192.168.0.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+
